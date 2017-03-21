@@ -35,6 +35,9 @@ Plugin 'mhartington/oceanic-next'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'othree/jsdoc-syntax.vim'
 Plugin 'slim-template/vim-slim'
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
+Plugin 'vim-syntastic/syntastic'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -87,3 +90,26 @@ set list
 " remap :;
 nnoremap ; :
 nnoremap : ;
+" other mappings
+let mapleader = ","
+" enable JSX on all .js files
+let g:jsx_ext_required = 0
+" syntastic settings
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_javascript_checkers = ['eslint', 'flow']
+" NERDTree settings
+let NERDTreeShowHidden = 1
+" Override eslint with local version where necessary.
+let local_eslint = finddir('node_modules', '.;') . '/.bin/eslint'
+if matchstr(local_eslint, "^\/\\w") == ''
+  let local_eslint = getcwd() . "/" . local_eslint
+endif
+if executable(local_eslint)
+  let g:syntastic_javascript_eslint_exec = local_eslint
+endif
