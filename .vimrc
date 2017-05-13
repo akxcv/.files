@@ -4,6 +4,8 @@ set number
 set tabstop=2 shiftwidth=2 softtabstop=2 expandtab
 " remove trailing whitespaces upon writing to file
 autocmd BufWritePre * :%s/\s\+$//e
+" run refmt when saving Reason files
+autocmd FileType reason autocmd BufWritePre * ReasonPrettyPrint
 
 set nocompatible              " be iMproved, required
 filetype off                  " required
