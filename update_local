@@ -3,6 +3,7 @@ mkdir -p $DIR_NAME
 
 cp ~/.bash_profile $DIR_NAME
 cp ~/.gitignore_global $DIR_NAME
+cp ~/.gitconfig $DIR_NAME
 cp -R ~/.terminfo $DIR_NAME
 cp -R ~/.vim $DIR_NAME
 cp ~/.vimrc $DIR_NAME
@@ -10,6 +11,7 @@ cp ~/.zshrc $DIR_NAME
 
 cp .bash_profile ~/
 cp .gitignore_global ~/
+cp .gitconfig ~/
 cp .vimrc ~/
 cp .zshrc ~/
 

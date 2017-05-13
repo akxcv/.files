@@ -1,0 +1,8 @@
+[user]
+	name = Alexander Komarov
+	email = ak@akxcv.com
+[core]
+	excludesfile = /Users/akxcv/.gitignore_global
+	fileMode = false
+[pull]
+	rebase = true
