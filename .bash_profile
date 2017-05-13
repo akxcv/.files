@@ -2,6 +2,7 @@ eval "$(rbenv init -)"
 export EDITOR=vim
 export TERM=xterm-256color-italic
 export PATH=$PATH:/Users/user_wrk
+export GOPATH=/Users/akxcv/go
 
 function mdcd {
   mkdir $1

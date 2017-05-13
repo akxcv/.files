@@ -40,6 +40,7 @@ Plugin 'mxw/vim-jsx'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'valloric/youcompleteme'
 Plugin 'reasonml/vim-reason-loader'
+Plugin 'fatih/vim-go'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
