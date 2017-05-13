@@ -1,12 +1,12 @@
-dirname = "~/.files_backup_$(date +"%s")/"
-mkdir -p dirname
+DIR_NAME=~/.files_backup_$(date +"%s")/
+mkdir -p $DIR_NAME
 
-cp ~/.bash_profile dirname
-cp ~/.gitignore_global dirname
-cp -R ~/.terminfo dirname
-cp -R ~/.vim dirname
-cp ~/.vimrc dirname
-cp ~/.zshrc dirname
+cp ~/.bash_profile $DIR_NAME
+cp ~/.gitignore_global $DIR_NAME
+cp -R ~/.terminfo $DIR_NAME
+cp -R ~/.vim $DIR_NAME
+cp ~/.vimrc $DIR_NAME
+cp ~/.zshrc $DIR_NAME
 
 cp .bash_profile ~/
 cp .gitignore_global ~/
