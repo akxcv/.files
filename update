@@ -1,0 +1,11 @@
+cp ~/.bash_profile .
+cp ~/.gitignore_global .
+cp ~/.vimrc .
+cp ~/.zshrc .
+
+rm -rf .terminfo
+rm -rf .vim
+mkdir -p .vim
+
+cp -R ~/.terminfo .
+cp -R ~/.vim/ftplugin .vim/

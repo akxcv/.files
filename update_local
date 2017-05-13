@@ -1,0 +1,19 @@
+dirname = "~/.files_backup_$(date +"%s")/"
+mkdir -p dirname
+
+cp ~/.bash_profile dirname
+cp ~/.gitignore_global dirname
+cp -R ~/.terminfo dirname
+cp -R ~/.vim dirname
+cp ~/.vimrc dirname
+cp ~/.zshrc dirname
+
+cp .bash_profile ~/
+cp .gitignore_global ~/
+cp .vimrc ~/
+cp .zshrc ~/
+
+rm -rf ~/.terminfo
+rm -rf ~/.vim/ftplugin
+cp -R .terminfo ~/
+cp -R .vim/ftplugin ~/.vim/
