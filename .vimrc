@@ -6,6 +6,8 @@ set tabstop=2 shiftwidth=2 softtabstop=2 expandtab
 autocmd BufWritePre * :%s/\s\+$//e
 " run refmt when saving Reason files
 autocmd FileType reason autocmd BufWritePre * ReasonPrettyPrint
+" run neoformat on save for Javascript files
+autocmd BufWritePre *.js Neoformat
 
 set nocompatible              " be iMproved, required
 filetype off                  " required
@@ -43,6 +45,7 @@ Plugin 'vim-syntastic/syntastic'
 Plugin 'valloric/youcompleteme'
 Plugin 'reasonml/vim-reason-loader'
 Plugin 'fatih/vim-go'
+Plugin 'sbdchd/neoformat'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -108,6 +111,8 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_javascript_checkers = ['eslint', 'flow']
+" Neoformat settings
+let g:neoformat_enabled_javascript = ['prettiereslint']
 " NERDTree settings
 let NERDTreeShowHidden = 1
 " Override eslint with local version where necessary.

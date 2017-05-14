@@ -1,4 +1,5 @@
 eval "$(rbenv init -)"
+eval `opam config env`
 export EDITOR=vim
 export TERM=xterm-256color-italic
 export PATH=$PATH:/Users/user_wrk
