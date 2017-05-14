@@ -46,6 +46,7 @@ Plugin 'valloric/youcompleteme'
 Plugin 'reasonml/vim-reason-loader'
 Plugin 'fatih/vim-go'
 Plugin 'sbdchd/neoformat'
+Plugin 'fleischie/vim-styled-components'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
