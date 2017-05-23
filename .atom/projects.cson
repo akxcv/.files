@@ -1,0 +1,134 @@
+[
+  {
+    title: "Checklists"
+    paths: [
+      "/Users/akxcv/Projects/checklists"
+    ]
+  }
+  {
+    title: "Blog"
+    paths: [
+      "/Users/akxcv/Projects/blog"
+    ]
+  }
+  {
+    title: "Stable"
+    paths: [
+      "/Users/akxcv/Projects/stable"
+    ]
+  }
+  {
+    title: "etg"
+    paths: [
+      "/Users/akxcv/Projects/etg"
+    ]
+  }
+  {
+    title: "Foodprint Web"
+    paths: [
+      "/Users/akxcv/Projects/foodprint-web"
+    ]
+  }
+  {
+    title: "Library"
+    paths: [
+      "/Users/akxcv/Projects/library"
+    ]
+  }
+  {
+    title: "Delogger"
+    paths: [
+      "/Users/akxcv/Projects/delogger"
+    ]
+  }
+  {
+    title: "Crocon"
+    paths: [
+      "/Users/akxcv/Projects/crocon"
+    ]
+  }
+  {
+    title: "nque"
+    paths: [
+      "/Users/akxcv/Projects/nque"
+    ]
+  }
+  {
+    title: "Logalize"
+    paths: [
+      "/Users/akxcv/Projects/logalize"
+    ]
+  }
+  {
+    title: "Listiq"
+    paths: [
+      "/Users/akxcv/Projects/listiq"
+    ]
+  }
+  {
+    title: "akxcv.github.io"
+    paths: [
+      "/Users/akxcv/Projects/akxcv.github.io"
+    ]
+  }
+  {
+    title: "Logalize Rails"
+    paths: [
+      "/Users/akxcv/Projects/logalize-rails"
+    ]
+  }
+  {
+    title: "Rollex"
+    paths: [
+      "/Users/akxcv/Projects/rollex"
+    ]
+  }
+  {
+    title: "Rollex2"
+    paths: [
+      "/Users/akxcv/Projects/rollex2"
+    ]
+  }
+  {
+    title: "Rollex Testing"
+    paths: [
+      "/Users/akxcv/Projects/rollex-testing"
+    ]
+  }
+  {
+    title: "Logidze"
+    paths: [
+      "/Users/akxcv/Clones/logidze"
+    ]
+  }
+  {
+    title: "Code Style"
+    paths: [
+      "/Users/akxcv/Projects/code-style"
+    ]
+  }
+  {
+    title: "Radsquad Code Style"
+    paths: [
+      "/Users/akxcv/Projects/radsquad-code-style"
+    ]
+  }
+  {
+    title: "Dont Worry Be Happy"
+    paths: [
+      "/Users/akxcv/Projects/dont-worry-be-happy"
+    ]
+  }
+  {
+    title: "Hello Reason Js"
+    paths: [
+      "/Users/akxcv/Projects/hello-reason-js"
+    ]
+  }
+  {
+    title: "DotFiles"
+    paths: [
+      "/Users/akxcv/.files"
+    ]
+  }
+]

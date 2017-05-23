@@ -1,0 +1,77 @@
+"*":
+  core:
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".flowconfig"
+        ".hgrc"
+      ]
+      "source.json": [
+        ".arcconfig"
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    disabledPackages: [
+      "ocaml-merlin"
+      "tree-view"
+    ]
+    excludeVcsIgnoredPaths: false
+    projectHome: "/Users/akxcv/Projects"
+    telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "oceanic-next"
+    ]
+  editor:
+    fontFamily: "Operator Mono"
+    preferredLineLength: 100
+    showInvisibles: true
+    tabType: "soft"
+  "exception-reporting":
+    userId: "05bc7c44-a4b3-79c6-fefd-ca042ffb3af9"
+  nuclide:
+    "nuclide-code-format": {}
+    "nuclide-diagnostics-ui": {}
+    "nuclide-home":
+      showHome: false
+    "nuclide-ocaml": {}
+    use:
+      "nuclide-adb-logcat": false
+      "nuclide-arcanist": false
+      "nuclide-blame": false
+      "nuclide-blame-provider-hg": false
+      "nuclide-bookshelf": false
+      "nuclide-buck": false
+      "nuclide-buck-ios": false
+      "nuclide-busy-signal": false
+      "nuclide-clang": false
+      "nuclide-clipboard-path": false
+      "nuclide-debugger-php": false
+      "nuclide-distraction-free-mode": false
+      "nuclide-hack": false
+      "nuclide-ios-simulator-logs": false
+      "nuclide-language-hack": false
+      "nuclide-objc": false
+      "nuclide-source-control-side-bar": false
+      "nuclide-swift": false
+  "prettier-atom":
+    formatOnSaveOptions:
+      enabled: true
+    prettierOptions:
+      semi: false
+      singleQuote: true
+    useEslint: true
+  react:
+    enabledForAllJavascriptFiles: true
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
+".erb.html.text":
+  editor:
+    preferredLineLength: 100
+".ruby.source":
+  editor:
+    preferredLineLength: 100
