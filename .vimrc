@@ -124,3 +124,6 @@ endif
 if executable(local_eslint)
   let g:syntastic_javascript_eslint_exec = local_eslint
 endif
+" Natural split opening (below + right)
+set splitbelow
+set splitright
