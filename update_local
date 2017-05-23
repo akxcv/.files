@@ -19,3 +19,5 @@ rm -rf ~/.terminfo
 rm -rf ~/.vim/ftplugin
 cp -R .terminfo ~/
 cp -R .vim/ftplugin ~/.vim/
+
+echo ".atom is to be updated manually, skipping."
